@@ -4,14 +4,14 @@
  * and open the template in the editor.
  */
 
-package test;
+package sco.kvdb.test;
 
 import java.io.RandomAccessFile;   
 import java.nio.MappedByteBuffer;   
 import java.nio.channels.FileChannel;   
   
 public class DBMap {   
-    static int length = 0x80000000; // 128 Mb   
+    static int length = 0x8000000; // 128 Mb   
   
     public static void main(String[] args) throws Exception {   
         // 为了以可读可写的方式打开文件，这里使用RandomAccessFile来创建文件。   
